@@ -1,0 +1,20 @@
+.delete {
+    text-align: center;
+    padding: 10px;
+}
+
+.delete__button {
+    margin: 15px 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    /* width: 20%; */
+}
+
+.delete__buttonDelete {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}

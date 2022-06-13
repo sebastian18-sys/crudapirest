@@ -1,0 +1,51 @@
+.edit {
+    margin: 10px;
+}
+
+.edit > h3 {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+.edit__form {
+    margin-top: 80px;
+}
+
+.edit__formText {
+    margin-bottom: 35px;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.edit__formText > label {
+   flex: 1;
+    /* flex: 0.3; */
+    font-weight: 600;
+}
+
+.edit__formText > input {
+    display: block;
+    width: 70%;
+    padding: 10px 5px;
+    outline: none;
+    color: #444;
+    border-radius: 5px;
+    border: 1px solid #444;
+    margin-left: 10px;
+}
+
+.edit__buttonSave {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid #666;
+    border-radius: 5px;
+    color: #444;
+}
+
+.edit__buttonSave:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
