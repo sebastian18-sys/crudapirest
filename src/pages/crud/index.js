@@ -50,9 +50,6 @@ export default function Crud() {
 
     }, [count])
 
-    console.log("data state in CRUD page", dataProfesor)
-    console.log(dataProfesor.length)
-
     return (
         <main className='crud'>
             <h1>Información docente</h1>
